@@ -1,0 +1,122 @@
+.banner{
+    height: 1100px;
+    position: relative;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.banner_title{
+    line-height: 3rem;
+    font-size: 8rem;
+}
+
+.banner_p{
+    line-height: 2;
+    font-size: 3.1rem;
+    opacity: 0.9em;
+    margin-top: 1em;
+    margin-bottom: 12em;
+}
+
+.banner_info{
+    padding: 0 1em;
+    position: absolute;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    color: #000 ;
+    margin: auto;
+}
+
+.menunavegacion{
+    padding: 1rem;
+    margin: 0;
+    display: block;
+    background-color: #87D9DB;
+    font-weight: bold;
+    margin-right: 0;
+    padding-left: 0;
+}
+
+.menunavegacion a{
+    display: inline;
+    padding: 0.5rem;
+    border-right: 1px solid #555;
+    margin-left: 2px;
+}
+
+.menunavegacion a:hover{
+    background-color: #34BFD1;
+    padding: 1rem;
+}
+
+p{
+    margin: 0px 10px;
+}
+
+h1{
+    margin: 0px 10px;
+}
+
+h2{
+    margin: 0px 10px;
+}
+
+.regiones p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+footer{
+    background-color: #FFF;
+    color: #55BCFA;
+    line-height: 1.5;
+}
+
+footer a{
+    text-decoration: none;
+    color: #55BCFA;
+}
+
+.ft-legal{
+    padding: 0.9375rem 1.875rem;
+    background-color: #333;
+}
+
+.ft-legal-list{
+    width: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-legal-list li{
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+
+ /*one before the last child*/
+
+.ft-legal-list li:nth-last-child(1){
+    flex: 1;    
+}
