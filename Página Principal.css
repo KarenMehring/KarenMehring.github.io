@@ -1,0 +1,344 @@
+.banner{
+    height: 1100px;
+    position: relative;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.banner_title{
+    line-height: 3rem;
+    font-size: 8rem;
+}
+
+.banner_p{
+    line-height: 2;
+    font-size: 3.1rem;
+    opacity: 0.9em;
+    margin-top: 1em;
+    margin-bottom: 12em;
+}
+
+.banner_info{
+    padding: 0 1em;
+    position: absolute;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    color: #000 ;
+    margin: auto;
+}
+ 
+.texto p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+body{
+    background-color:  #FFF;
+    text-align: justify;
+    font-family: times;
+    line-height: 1.2;
+    color: #000;
+}
+
+.viajes_img{
+    max-height: 50%;
+    max-width: 50%;
+    height: 200px;
+    width: 300px;
+    float: right;
+    padding: 1rem;
+    margin-top: 0.3125rem;
+    position: relative;
+    margin-right: 15.5em;
+    margin: right;    
+}
+
+.window-notice {
+    background: rgba(33, 41, 52, .85);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+
+.window-notice .content {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 600px;
+    min-width: 320px !important;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+
+ul.horizontal{
+    font-family: fantasy;
+    padding: 1rem;
+    background-color: aqua;
+}
+
+ul.horizontal li{
+    display: block;
+    float: left;
+    padding: 0 10px;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+p{
+    margin: 0 10px;
+}
+
+/*footer*/
+
+*{
+    box-sizing: border-box;
+    font-family: times;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.container{
+    flex: 1; 
+}
+
+footer{
+    background-color: #FFF;
+    color: #87D9DB;
+    line-height: 1.5;
+}
+
+footer a{
+    text-decoration: none;
+    color: #87D9DB;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.ft-main{
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-main-item{
+    padding: 1.25rem;
+    min-width: 31.5rem /*200px*/;
+}
+
+.contador{
+    padding: 3rem;
+}
+
+.publicidad{
+    object-fit: cover;
+    padding-left: 90rem;
+    display: flex;
+    margin-top: -20rem;
+}
+
+@media only screen and (min-width: 29.8125rem /*477px*/){
+    ft-main{
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 77.5rem /*1240px*/){
+    ft-main{
+        justify-content: space-evenly;
+    }
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="email"]{
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+}
+
+input[type="submit"]{
+    background-color: #87D9DB;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+}
+
+.ft-legal{
+    padding: 2.8rem 1.875rem;
+    background-color: #242424;
+}
+
+.ft-legal-list{
+    width: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-legal-list li{
+    margin: 0.5rem 0.625rem;
+    white-space: nowrap;
+}
+
+/*one before the last child*/
+
+.ft-legal-list li:nth-last-child(1){
+    flex: 1;    
+}
+
+.logo_img{
+    margin-left: 110rem;
+    max-height: 50%;
+    max-width: 50%;
+    height: 100px;
+    width: 100px;
+    float: left;
+    position: absolute;
+    margin-top: -5rem;
+}
+
+.menunavegacion{
+    padding: 1rem;
+    margin: 0;
+    display: block;
+    background-color: #87D9DB;
+    font-weight: bold;
+    margin-right: 0;
+    padding-left: 0;
+}
+
+.menunavegacion a{
+    display: inline;
+    padding: 0.5rem;
+    border-right: 1px solid #555;
+    margin-left: 2px;
+}
+
+.menunavegacion a:hover{
+    background-color: #34BFD1;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
