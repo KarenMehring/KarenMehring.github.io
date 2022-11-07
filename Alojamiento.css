@@ -1,0 +1,689 @@
+.banner{
+    height: 1100px;
+    position: relative;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.banner_title{
+    line-height: 3rem;
+    font-size: 8rem;
+}
+
+.banner_p{
+    line-height: 2;
+    font-size: 3.1rem;
+    opacity: 0.9em;
+    margin-top: 1em;
+    margin-bottom: 12em;
+}
+
+.banner_info{
+    padding: 0 1em;
+    position: absolute;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    color: #000 ;
+    margin: auto;
+}
+
+p{
+    margin: 0px 10px;
+}
+
+h2{
+    margin: 0px 10px;
+}
+
+h3{
+    margin: 0px 10px;
+}
+
+h4{
+    margin: 0px 10px;
+    color: #87D9DB;
+}
+/*Carousel 1*/
+
+.carousel-contenedor{
+    position: relative;
+}
+
+.carousel-anterior,
+.carousel-siguiente{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carousel-anterior:hover
+.carousel-siguiente:hover{
+    opacity: 100%;
+}
+
+.carousel-anterior{
+    left: -30px;
+}
+
+.carousel-siguiente{
+    right: -30px;
+}
+
+.carousel-lista{
+    padding: 0.5rem;
+}
+
+/*Carousel 2*/
+
+.carousel-contenedor2{
+    position: relative;
+}
+
+.carousel-anterior2,
+.carousel-siguiente2{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carousel-anterior2:hover
+.carousel-siguiente2:hover{
+    opacity: 100%;
+}
+
+.carousel-anterior2{
+    left: -30px;
+}
+
+.carousel-siguiente2{
+    right: -30px;
+}
+
+.carousel-lista2{
+    padding: 0.5rem;
+}
+
+/*Carousel 3*/
+
+.carousel-contenedor3{
+    position: relative;
+}
+
+.carousel-anterior3,
+.carousel-siguiente3{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carousel-anterior3:hover
+.carousel-siguiente3:hover{
+    opacity: 100%;
+}
+
+.carousel-anterior3{
+    left: -30px;
+}
+
+.carousel-siguiente3{
+    right: -30px;
+}
+
+.carousel-lista3{
+    padding: 0.5rem;
+}
+
+/*Carousel 4*/
+
+.carousel-contenedor4{
+    position: relative;
+}
+
+.carousel-anterior4,
+.carousel-siguiente4{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carousel-anterior4:hover
+.carousel-siguiente4:hover{
+    opacity: 100%;
+}
+
+.carousel-anterior4{
+    left: -30px;
+}
+
+.carousel-siguiente4{
+    right: -30px;
+}
+
+.carousel-lista4{
+    padding: 0.5rem;
+}
+
+/*Carousel 5*/
+
+.carousel-contenedor5{
+    position: relative;
+}
+
+.carousel-anterior5,
+.carousel-siguiente5{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carousel-anterior5:hover
+.carousel-siguiente5:hover{
+    opacity: 100%;
+}
+
+.carousel-anterior5{
+    left: -30px;
+}
+
+.carousel-siguiente5{
+    right: -30px;
+}
+
+.carousel-lista5{
+    padding: 0.5rem;
+}
+
+/*Carousel 6*/
+
+.carousel-contenedor6{
+    position: relative;
+}
+
+.carousel-anterior6,
+.carousel-siguiente6{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carousel-anterior6:hover
+.carousel-siguiente6:hover{
+    opacity: 100%;
+}
+
+.carousel-anterior6{
+    left: -30px;
+}
+
+.carousel-siguiente6{
+    right: -30px;
+}
+
+.carousel-lista6{
+    padding: 0.5rem;
+}
+
+/*Carousel 7*/
+
+.carousel-contenedor7{
+    position: relative;
+}
+
+.carousel-anterior7,
+.carousel-siguiente7{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carousel-anterior7:hover
+.carousel-siguiente7:hover{
+    opacity: 100%;
+}
+
+.carousel-anterior7{
+    left: -30px;
+}
+
+.carousel-siguiente7{
+    right: -30px;
+}
+
+.carousel-lista7{
+    padding: 0.5rem;
+}
+
+/*Carousel 8*/
+
+.carousel-contenedor8{
+    position: relative;
+}
+
+.carousel-anterior8,
+.carousel-siguiente8{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carousel-anterior8:hover
+.carousel-siguiente8:hover{
+    opacity: 100%;
+}
+
+.carousel-anterior8{
+    left: -30px;
+}
+
+.carousel-siguiente8{
+    right: -30px;
+}
+
+.carousel-lista8{
+    padding: 0.5rem;
+}
+
+/*Carousel 9*/
+
+.carousel-contenedor9{
+    position: relative;
+}
+
+.carousel-anterior9,
+.carousel-siguiente9{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carousel-anterior9:hover
+.carousel-siguiente9:hover{
+    opacity: 100%;
+}
+
+.carousel-anterior9{
+    left: -30px;
+}
+
+.carousel-siguiente9{
+    right: -30px;
+}
+
+.carousel-lista9{
+    padding: 0.5rem;
+}
+
+/*Carousel 10*/
+
+.carousel-contenedor10{
+    position: relative;
+}
+
+.carousel-anterior10,
+.carousel-siguiente10{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carousel-anterior10:hover
+.carousel-siguiente10:hover{
+    opacity: 100%;
+}
+
+.carousel-anterior10{
+    left: -30px;
+}
+
+.carousel-siguiente10{
+    right: -30px;
+}
+
+.carousel-lista10{
+    padding: 0.5rem;
+}
+
+/*Carousel 11*/
+
+.carousel-contenedor11{
+    position: relative;
+}
+
+.carousel-anterior11,
+.carousel-siguiente11{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carousel-anterior11:hover
+.carousel-siguiente11:hover{
+    opacity: 100%;
+}
+
+.carousel-anterior11{
+    left: -30px;
+}
+
+.carousel-siguiente11{
+    right: -30px;
+}
+
+.carousel-lista11{
+    padding: 0.5rem;
+}
+
+/*Carousel 12*/
+
+.carousel-contenedor12{
+    position: relative;
+}
+
+.carousel-anterior12,
+.carousel-siguiente12{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carousel-anterior12:hover
+.carousel-siguiente12:hover{
+    opacity: 100%;
+}
+
+.carousel-anterior12{
+    left: -30px;
+}
+
+.carousel-siguiente12{
+    right: -30px;
+}
+
+.carousel-lista12{
+    padding: 0.5rem;
+}
+
+/*Carousel 13*/
+
+.carousel-contenedor13{
+    position: relative;
+}
+
+.carousel-anterior13,
+.carousel-siguiente13{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carousel-anterior13:hover
+.carousel-siguiente13:hover{
+    opacity: 100%;
+}
+
+.carousel-anterior13{
+    left: -30px;
+}
+
+.carousel-siguiente13{
+    right: -30px;
+}
+
+.carousel-lista13{
+    padding: 0.5rem;
+}
+
+/*Carousel 14*/
+
+.carousel-contenedor14{
+    position: relative;
+}
+
+.carousel-anterior14,
+.carousel-siguiente14{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carousel-anterior14:hover
+.carousel-siguiente14:hover{
+    opacity: 100%;
+}
+
+.carousel-anterior14{
+    left: -30px;
+}
+
+.carousel-siguiente14{
+    right: -30px;
+}
+
+.carousel-lista14{
+    padding: 0.5rem;
+}
+
+.texto p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:800px) {
+    body{
+        padding: 40px 0;
+    }
+    .contenido-principal{
+        flex-direction: column;
+    }
+    .contenido-principal > * {
+        width: 100%;
+    }
+}
+
+.menunavegacion{
+    padding: 1rem;
+    margin: 0;
+    display: block;
+    background-color: #87D9DB;
+    font-weight: bold;
+    margin-right: 0;
+    padding-left: 0;
+}
+
+.menunavegacion a{
+    display: inline;
+    padding: 0.5rem;
+    border-right: 1px solid #555;
+    margin-left: 2px;
+}
+
+.menunavegacion a:hover{
+    background-color: #34BFD1;
+    padding: 1rem;
+}
+
+/*footer*/
+
+footer{
+    background-color: #FFF;
+    color: #55BCFA;
+    line-height: 1.5;
+}
+
+footer a{
+    text-decoration: none;
+    color: #55BCFA;
+}
+
+.ft-legal{
+    padding: 0.9375rem 1.875rem;
+    background-color: #333;
+}
+
+.ft-legal-list{
+    width: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-legal-list li{
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+
+ /*one before the last child*/
+
+.ft-legal-list li:nth-last-child(1){
+    flex: 1;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
