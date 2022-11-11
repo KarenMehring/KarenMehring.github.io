@@ -41,7 +41,6 @@
     font-size: 20px;
     font-weight: 300;
     margin-top: 10px;
-    position: justify;
 }
 
 body{
@@ -171,9 +170,15 @@ a:hover{
     position: relative;
 }
 
-@media only screen and (min-width: 29.8125rem /*477px*/){
-    ft-main{
-        justify-content: space-around;
+@media screen and (max-width: 29.8125rem /*477px*/){
+    #contenedor{
+        width: 90%;
+    }
+    #contenido{
+        width: 60%;
+    }
+    #barra_lateral{
+        width:30%;
     }
 }
 
