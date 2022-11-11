@@ -41,6 +41,7 @@
     font-size: 20px;
     font-weight: 300;
     margin-top: 10px;
+    justify-content: justify;
 }
 
 body{
@@ -167,6 +168,7 @@ a:hover{
     padding-left: 90rem;
     display: flex;
     margin-top: -20rem;
+    position: relative;
 }
 
 @media only screen and (min-width: 29.8125rem /*477px*/){
