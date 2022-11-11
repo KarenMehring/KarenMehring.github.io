@@ -170,7 +170,7 @@ a:hover{
     position: relative;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
     #contenedor{
         width: 90%;
     }
@@ -182,7 +182,7 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 200px){
     #encabezado{
         height: auto;
     }
