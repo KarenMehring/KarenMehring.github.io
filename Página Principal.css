@@ -170,7 +170,7 @@ a:hover{
     position: relative;
 }
 
-@media screen and (max-width: 29.8125rem /*477px*/){
+@media screen and (max-width: 980px){
     #contenedor{
         width: 90%;
     }
@@ -182,9 +182,15 @@ a:hover{
     }
 }
 
-@media only screen and (min-width: 77.5rem /*1240px*/){
-    ft-main{
-        justify-content: space-evenly;
+@media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
     }
 }
 
