@@ -168,14 +168,11 @@ a:hover{
     display: flex;
     margin-top: -20rem;
     position: relative;
-    width: 50%;
+    max-width: 100%;
+    width: 500px;  // asume que este es el tamaño por defect
 }
 
-@media only screen and (max-width: 800px) {
-  publicidad{
-    width: 100%;
-  }
-}
+  o 
 
 form{
     display: flex;
