@@ -165,9 +165,9 @@ a:hover{
 .publicidad{
     object-fit: cover;
     padding-left: 90rem;
-    display: flex;
+   
     margin-top: -20rem;
-    position: relative;
+  
     max-width: 100%;
     width: 500px;  // asume que este es el tamaño por defect
 }
