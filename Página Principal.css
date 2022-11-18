@@ -171,7 +171,7 @@ a:hover{
     width: 50%;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 200px) {
   publicidad{
     width: 100%;
   }
