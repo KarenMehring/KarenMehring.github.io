@@ -210,29 +210,8 @@ input[type="submit"]{
     white-space: nowrap;
 }
 
-@media only screen and (max-width:320px){
+@media only screen and (min-width:320px) and (max-width:480px){
     ft-main{
-        justify-content: space-around;
-    }
-    .publicidad{
-        justify-content: space-around;
-    }
-}
-
-@media only screen and (min-width: 768px){
-    ft-main{
-        justify-content: space-evenly;
-    }
-    .publicidad{
-        justify-content: space-around;
-    }
-}
-
-@media (orientation: landscape){
-    ft-main{
-        justify-content: space-evenly;
-    }
-    .publicidad{
         justify-content: space-around;
     }
 }
