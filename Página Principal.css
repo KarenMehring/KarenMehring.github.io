@@ -1,7 +1,3 @@
-*{ box-sizing: content-box;}
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
-
 .banner{
     height: 1100px;
     position: relative;
@@ -212,6 +208,11 @@ input[type="submit"]{
     white-space: nowrap;
 }
 
+@media only screen and (min-device-width:960px){
+    ft-main{
+        justify-content: sapce-around;
+    }
+}
 
 /*one before the last child*/
 
