@@ -172,8 +172,6 @@ a:hover{
     width: 500px;  // asume que este es el tamaño por defect
 }
 
-  o 
-
 form{
     display: flex;
     flex-wrap: wrap;
@@ -210,17 +208,51 @@ input[type="submit"]{
     white-space: nowrap;
 }
 
-@media only screen and (min-width:320px) and (max-width:480px){
-    ft-main{
-        justify-content: space-around;
-    }
-    .publicidad{
-        justify-content: space-around;
-    }
-    .logo{
-        justify-content: space-around;
-    }
-}
+@media screen and (max-width:980px) {
+		.container {
+			width:98%;
+		}
+		section {
+			width:68%;
+		}
+	}
+
+@media screen and (max-width:700px) {
+		aside,section {
+			float:none;
+			width:96%;
+		}
+		nav, section {
+			font-size:1.2em;
+		}
+		aside {
+			margin-top:5px;
+		}
+		nav ul {
+			float:none;
+			clear:both;
+		}
+	}
+
+@media screen and (max-width:480px) {
+		aside {
+			display:none;
+		}
+		nav, section {
+			font-size:1.5em;
+		}
+		section {
+			width:94%;
+		}
+		nav ul {
+			float:left;
+			clear:none;
+			width:50%;
+		}
+		nav ul li {
+			float:none;
+		}
+	}
 /*one before the last child*/
 
 .ft-legal-list li:nth-last-child(1){
