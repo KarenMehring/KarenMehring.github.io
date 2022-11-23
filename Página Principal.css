@@ -214,17 +214,26 @@ input[type="submit"]{
     ft-main{
         justify-content: space-around;
     }
+    .publicidad{
+        justify-content: space-around;
+    }
 }
 
 @media only screen and (min-width: 768px){
     ft-main{
         justify-content: space-evenly;
     }
+    .publicidad{
+        justify-content: space-around;
+    }
 }
 
 @media (orientation: landscape){
     ft-main{
         justify-content: space-evenly;
+    }
+    .publicidad{
+        justify-content: space-around;
     }
 }
 /*one before the last child*/
