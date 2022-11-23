@@ -214,6 +214,12 @@ input[type="submit"]{
     ft-main{
         justify-content: space-around;
     }
+    .publicidad{
+        justify-content: space-around;
+    }
+    .logo{
+        justify-content: space-around;
+    }
 }
 /*one before the last child*/
 
