@@ -208,9 +208,15 @@ input[type="submit"]{
     white-space: nowrap;
 }
 
-@media only screen and (min-device-width:960px){
-    body{
+@media only screen and (min-width:477px){
+    ft-main{
         justify-content: sapce-around;
+    }
+}
+
+@media only screen and (min-width:1240px){
+    ft-main{
+        justify-content: sapce-evenly;
     }
 }
 
