@@ -210,13 +210,13 @@ input[type="submit"]{
     white-space: nowrap;
 }
 
-@media only screen and (min-width: 29.8125rem /*477px*/){
+@media only screen and (max-width:320px){
     ft-main{
         justify-content: space-around;
     }
 }
 
-@media only screen and (min-width: 77.5rem /*1240px*/){
+@media only screen and (min-width: 768px){
     ft-main{
         justify-content: space-evenly;
     }
