@@ -222,6 +222,11 @@ input[type="submit"]{
     }
 }
 
+@media (orientation: landscape){
+    ft-main{
+        justify-content: space-evenly;
+    }
+}
 /*one before the last child*/
 
 .ft-legal-list li:nth-last-child(1){
